@@ -4580,7 +4580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.5
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4629,6 +4629,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -20015,7 +20019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.75
+      value: -11.25
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20064,6 +20068,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -24342,7 +24350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.75
+      value: -11.25
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24391,6 +24399,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -27308,7 +27320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.5
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27357,6 +27369,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -33082,6 +33098,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -33184,6 +33201,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!320 &963194230
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a0d74fc76dcfe2c42ac63b8b0eaebc36, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -1932192187484414415, guid: a0d74fc76dcfe2c42ac63b8b0eaebc36, type: 2}
+    value: {fileID: 963194229}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &963229481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34077,7 +34113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.75
+      value: -11.25
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34126,6 +34162,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -41779,7 +41819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -41828,6 +41868,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -43256,7 +43300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.5
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -43305,6 +43349,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -45787,7 +45835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45836,6 +45884,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -46269,7 +46321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.75
+      value: -11.25
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46318,6 +46370,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -48239,7 +48295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.5
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48288,6 +48344,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -48411,7 +48471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48460,6 +48520,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
@@ -61693,7 +61757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565264, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -61742,6 +61806,10 @@ PrefabInstance:
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ForceModule.z.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885400010391565267, guid: 082feb7463673684398adef0e6d14f92, type: 3}
       propertyPath: ClampVelocityModule.enabled
